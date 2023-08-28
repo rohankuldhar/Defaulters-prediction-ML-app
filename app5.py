@@ -62,10 +62,12 @@ def prediction(loan_amnt, term, int_rate, installment, annual_inc, dti, open_acc
 def main():
     html_temp = """ 
     <div style ="background-color:yellow;padding:13px"> 
-    <h1 style ="color:black;text-align:center;">Loan Prediction App using Streamlit</h1> 
+    <h1 style ="color:black;text-align:center;">Loan Prediction App using Streamlit by Rohan Kuldhar</h1> 
     </div> 
     """
-    
+
+    st.write("Find me at  [link](https://linkedin.com/in/rohan-kuldhar-89386114b)")
+           
     # display the front end aspect
     st.markdown(html_temp, unsafe_allow_html = True)
     
