@@ -1,0 +1,6 @@
+scikit-mlm
+scikit-learn
+numpy
+pickle5
+xgboost
+streamlit
