@@ -1860,7 +1860,7 @@ def main():
            zipcode_48052, zipcode_70466, zipcode_86630, zipcode_93700) 
         st.success('Your loan is {}'.format(result))
         print(loan_amnt)
-        st.write("Find me at  [link] (https://linkedin.com/in/rohan-kuldhar-89386114b)")
+st.write("Find me at  [link] (https://linkedin.com/in/rohan-kuldhar-89386114b)")
         
 if __name__=='__main__': 
     main()
